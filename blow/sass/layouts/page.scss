@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+  height: 100vh;
+}
+
+.page__aside {
+  flex-shrink: 0;
+}
+
+.page__main {
+  flex-basis: 100%;
+}

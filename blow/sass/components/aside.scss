@@ -1,0 +1,23 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 107px;
+  overflow: visible;
+}
+
+.aside__title {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  padding-right: 600px;
+  &_light {
+    opacity: 0.3;
+  }
+}
+
+.aside__card {
+  opacity: 0.3;
+  padding-bottom: 40px;
+}
