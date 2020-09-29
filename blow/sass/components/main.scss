@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: url("asserts/background.png") center/cover no-repeat;
+}
+
+.main__button {
+  padding-bottom: 50px;
+}
